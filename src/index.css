@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+body {
+  background: linear-gradient(to top, red, green);
+  background: rgb(2, 0, 36);
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 0.8) 0%,
+    rgba(9, 9, 121, 0.9) 35%,
+    rgba(0, 212, 255, 0.8) 100%
+  );
+  color: #000;
+}
+
+* {
+  font-family: "Neue Machina", "Times New Roman", Times, serif;
+}
