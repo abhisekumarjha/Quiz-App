@@ -5,7 +5,6 @@ import Footer from './components/footer/Footer';
 import Rules from './components/rules/Rules';
 import Dashboard from './components/dashboard/Dashboard';
 
-import bgImage from '../src/assets/bg.svg'
 
 const UserContext = createContext(null);
 
@@ -29,7 +28,7 @@ const App = () => {
     <UserContext.Provider value={{ username, setUsername, email, setEmail }}>
       <div className="w-screen h-screen"
         style={{
-          background: `linear-gradient(to bottom, rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.1)), url(${bgImage})`,
+          background: `linear-gradient(to bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.5))`,
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
         }}
